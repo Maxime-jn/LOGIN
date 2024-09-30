@@ -8,21 +8,66 @@
     <link rel="manifest" href="manifest.webmanifest">
 </head>
 <style>
-    table {
-        width: 100%;
-        border-collapse: collapse;
-    }
+     body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
 
-    th, td {
-        border: 1px solid black;
-        padding: 8px;
-        text-align: left;
-    }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #444;
+        }
 
-    img {
-        width: 50px;
-        height: auto;
-    }
+        table {
+            width: 80%;
+            margin: 40px auto;
+            border-collapse: collapse;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            background-color: white;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+        }
+
+        td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th, td {
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        img {
+            width: 40px;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        @media (max-width: 768px) {
+            table {
+                width: 95%;
+            }
+
+            th, td {
+                padding: 8px;
+            }
+
+            img {
+                width: 30px;
+            }
+        }
 </style>
 
 <body>
